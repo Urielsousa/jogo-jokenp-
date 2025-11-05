@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- script deve ser importado com <script src="script.js"></script> -->
+    <title>Devclub jokenpo</title>
+  </head>
+  <body>
+<div class="container">
+<h1>Jokenpo</h1>
+  <div class="button"> 
+    <button id ="rock" onclick="playHuman('rock')"> &#x1F44A;</button>
+    <button id ="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+    <button id ="paper" onclick="playHuman('paper')">&#x1F590;</button>
+</div>
+
+
+<p class="result"></p>
+
+<p class="your-score"> Sua pontuação: <span id="human-score">0</span></p>
+<p class="machine-score">  Sua pontuação da Alexa: <span id="machine-score">0</span></p>
+
+    <!-- Importa o script no final do body para garantir que elementos já existam -->
+    <script src="script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://picsum.photos/1920/1080");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+#rock {
+  background-color: #f44336;
+}
+#paper {
+  background-color: #2196f3;
+}
+#scissors {
+  background-color: #4caf50;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.your-score span {
+  color: blue;
+}
+
+.machine-score span {
+  color: red;
+}
